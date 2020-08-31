@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btn_explicitintent:
-                Intent explicit = new Intent(MainActivity.this, TestActivity.class);
+                Intent explicit = new Intent(MainActivity.this, IntentActivity.class);
                 startActivity(explicit);
                 break;
             case R.id.btn_implicitintent:

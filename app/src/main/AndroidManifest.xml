@@ -12,17 +12,23 @@
         <activity android:name=".Layout1Activity"></activity>
         <activity android:name=".Layout2Activity" />
         <activity android:name=".MenuLatihanActivity">
+
+        </activity>
+        <activity
+            android:name=".MainBottomNavActivity"
+            android:label="@string/title_activity_main_bottom_nav" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainBottomNavActivity"
-            android:label="@string/title_activity_main_bottom_nav" />
+
         <activity android:name=".IntentActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
     </application>
 
 </manifest>
